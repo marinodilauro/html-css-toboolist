@@ -15,6 +15,7 @@
     --var-green: rgba(163, 209, 22, 1);
 }
 
+/* #region Header */
 .logo {
     padding: 1rem 0 1rem 1.5rem
 }
@@ -27,3 +28,49 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
+
+/* #endregion Header */
+
+/* #region Main */
+#site_main {
+    background-color: var(--var-bg_color);
+}
+
+.container {
+    width: 1550px;
+    height: 600px;
+    margin: auto;
+    padding: 40px 0 10px;
+}
+
+.button_section {
+    background-color: white;
+    margin-bottom: 2px;
+    padding: 20px 0 10px 50px;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+button {
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+#add_task {
+    background-color: var(--var-blue);
+    color: white;
+    border: none;
+    margin-right: 3px;
+}
+
+#add_section {
+    background-color: white;
+    color: lightgray;
+    border: 1px solid lightgray;
+}
+
+.task_section {
+    background-color: rgb(255, 0, 0);
+}
+
+/* #endregion Main */
