@@ -38,7 +38,7 @@ strong {
     display: inline-block;
     background-color: var(--var-purple);
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     border-radius: 0.8rem;
     padding: 8px 10px;
 }
