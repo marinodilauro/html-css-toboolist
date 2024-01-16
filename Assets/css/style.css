@@ -82,6 +82,11 @@ strong {
 /* #endregion Utilities */
 
 /* #region Header */
+
+#site_header {
+    background-color: white;
+}
+
 .logo {
     padding: 1rem 0 1rem 1.5rem
 }
@@ -98,7 +103,7 @@ strong {
 /* #endregion Header */
 
 /* #region Main */
-#site_main {
+body {
     background-color: var(--var-bg_color);
 }
 
