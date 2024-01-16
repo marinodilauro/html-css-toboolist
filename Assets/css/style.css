@@ -137,7 +137,8 @@ button {
 #add_section {
     background-color: white;
     color: lightgray;
-    border: 1px solid lightgray;
+    box-shadow: inset 0 0 0 1px lightgray;
+    border: none;
 }
 
 /* #endregion Buttons section */
