@@ -23,22 +23,79 @@
     <main id="site_main">
         <div class="container">
 
-            <!-- Buttons -->
-            <div class="button_section">
+            <!-- Button region -->
+            <div class="button_region">
                 <div class="button_container">
                     <button id="add_task">Add Task</button>
                     <button id="add_section">Add Section</button>
                 </div>
             </div>
 
-            <!-- Tasks -->
-            <div class="tasks_section">
-                <div id="new_task">
+            <!-- Task region -->
+            <div class="task_region">
+
+                <!-- New Task -->
+                <div class="task_section">
                     <p><strong>&#128899 New Task</strong></p>
                     <div class="tasks_list">
-                        <div id="checkmark">&#x2714</div>
                         <div class="task">
-                            <span class="task_name">Quarterly Newsletter</span>
+                            <div id="checkmark">&#x2714</div>
+                            <span>Quarterly Newsletter</span>
+                            <div class="icon_editorial">Editorial</div>
+                        </div>
+                        <!-- <div id="circle">&#9711</div> -->
+                    </div>
+                </div>
+
+                <!-- Today -->
+                <div class="task_section">
+                    <p><strong>&#128899 Today</strong></p>
+                    <div class="tasks_list">
+                        <div class="task">
+                            <div id="checkmark">&#x2714</div>
+                            <span>Recruiting blog post</span>
+                            <div class="icon_editorial">Editorial</div>
+                        </div>
+                        <div class="task">
+                            <div id="checkmark">&#x2714</div>
+                            <span>Mobile app launch</span>
+                            <div class="icon_q1goals">Q1 Goals</div>
+                        </div>
+                        <div class="task">
+                            <div id="cross">&times;</div>
+                            <span>Interview John H.</span>
+                            <div class="icon_recruiting">Recruiting</div>
+                        </div>
+                        <div class="task">
+                            <div id="checkmark">&#x2714</div>
+                            <span>Summit update to mobile storefronts</span>
+                            <div class="icon_mobile">Mobile</div>
+                        </div>
+                        <!-- <div id="circle">&#9711</div> -->
+                    </div>
+                </div>
+
+                <!-- Upcoming -->
+                <div class="task_section">
+                    <p><strong>&#128899 Upcoming</strong></p>
+                    <div class="tasks_list">
+                        <div class="task">
+                            <div id="cross">&times;</div>
+                            <span>Schedule meeting with Alex</span>
+                        </div>
+                        <div class="task">
+                            <div id="checkmark">&#x2714</div>
+                            <span>Homepage refresh</span>
+                            <div class="icon_website">Website</div>
+                        </div>
+                        <div class="task">
+                            <div id="checkmark">&#x2714</div>
+                            <span>Onboard new sales team members</span>
+                            <div class="icon_sales">Sales</div>
+                        </div>
+                        <div class="task">
+                            <div id="checkmark">&#x2714</div>
+                            <span>Review editorial calendar</span>
                             <div class="icon_editorial">Editorial</div>
                         </div>
                         <!-- <div id="circle">&#9711</div> -->
@@ -46,9 +103,7 @@
                 </div>
             </div>
         </div>
-        </div>
     </main>
-
 </body>
 
 </html>

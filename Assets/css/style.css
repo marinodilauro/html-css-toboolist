@@ -28,9 +28,10 @@ strong {
     display: inline-block;
     background-color: var(--var-blue);
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     border-radius: 0.8rem;
-    padding: 0.5rem 1rem;
+    padding: 8px 10px;
+
 }
 
 .icon_q1goals {
@@ -39,43 +40,43 @@ strong {
     color: white;
     font-size: 0.8rem;
     border-radius: 0.8rem;
-    padding: 0.5rem 1rem;
+    padding: 8px 10px;
 }
 
 .icon_recruiting {
     display: inline-block;
     background-color: var(--var-dark_green);
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     border-radius: 0.8rem;
-    padding: 0.5rem 1rem;
+    padding: 8px 10px;
 }
 
 .icon_mobile {
     display: inline-block;
     background-color: var(--var-orange);
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     border-radius: 0.8rem;
-    padding: 0.5rem 1rem;
+    padding: 8px 10px;
 }
 
 .icon_website {
     display: inline-block;
     background-color: var(--var-dark_pink);
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     border-radius: 0.8rem;
-    padding: 0.5rem 1rem;
+    padding: 8px 10px;
 }
 
 .icon_sales {
     display: inline-block;
     background-color: var(--var-green);
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     border-radius: 0.8rem;
-    padding: 0.5rem 1rem;
+    padding: 8px 10px;
 }
 
 /* #endregion Utilities */
@@ -103,13 +104,12 @@ strong {
 
 .container {
     width: 1550px;
-    height: 600px;
     margin: auto;
     padding: 40px 0 10px;
 }
 
 /* #region Buttons section */
-.button_section {
+.button_region {
     background-color: white;
     margin-bottom: 2px;
     padding: 20px 0 10px 50px;
@@ -138,31 +138,44 @@ button {
 /* #endregion Buttons section */
 
 /* #region Tasks section */
-.tasks_section {
+.task_region {
     background-color: white;
     margin-bottom: 2px;
     padding: 50px;
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
-/* New Task */
-#new_task {
-    width: 800px;
-    height: 100px;
-}
-
 #checkmark {
     display: inline-block;
     color: var(--var-dark_green);
+    font-size: 0.6rem;
+    font-weight: bold;
+    border: 1px solid var(--var-dark_green);
+    border-radius: 100%;
+    padding: 3px 6px 4px 6px;
+    margin-right: 0.5rem;
+}
+
+#cross {
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px 5.5px 0 5px;
+    margin-right: 0.5rem;
+}
+
+.task_section {
+    margin-bottom: 2rem;
 }
 
 .tasks_list {
-    margin: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .task {
-    display: inline-block;
     color: var(--var-dark_grey);
+    margin: 0.5rem 0.5rem 1rem 0;
 }
 
 /* #endregion Tasks section */
